@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Person List</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"/>
+</head>
+<body>
+<h1>Person List</h1>
+<a href="addPerson">Add Person</a>
+<a href="http://localhost:8080/characters">JSON</a>
+
+<br/><br/>
+<div>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Life</th>
+            <th>Id</th>
+
+        </tr>
+        <tr th:each ="character: ${characters}">
+
+            <td th:utext="${character.name}">...</td>
+
+            <td th:utext="${character.life}">...</td>
+            <td th:utext="${character.id}">...</td>
+            <td><br/><a th:href="@{update}+'/'+${character.id}">Update</a></td>
+            <td><br/><a th:href="@{delete}+'/'+${character.id}">Delete</a></td>
+
+
+
+
+        </tr>
+
+    </table>
+</div>
+</body>
+</html>

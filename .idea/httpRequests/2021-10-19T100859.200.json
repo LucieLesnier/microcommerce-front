@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Hero",
+    "life": 100,
+    "id": 1
+  },
+  {
+    "name": "Wizard",
+    "life": 100,
+    "id": 2
+  },
+  {
+    "name": "Warrior",
+    "life": 100,
+    "id": 3
+  }
+]

@@ -1,0 +1,40 @@
+GET http://localhost:8080/characters
+
+<> 2021-10-19T100902.200.json
+
+###
+
+GET http://localhost:8080
+
+<> 2021-10-19T100902.200.txt
+
+###
+
+GET http://localhost:8080/addPerson
+
+<> 2021-10-19T100902.404.json
+
+###
+
+GET http://localhost:8080/characters
+
+<> 2021-10-19T100859.200.json
+
+###
+
+GET http://localhost:8080
+
+<> 2021-10-19T100859.200.txt
+
+###
+
+GET http://localhost:8080/addPerson
+
+<> 2021-10-19T100859.404.json
+
+###
+
+GET http://localhost:8080/addPerson
+
+###
+
